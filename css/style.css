@@ -1,0 +1,99 @@
+body {
+	width: 100%;
+	margin: 2px auto;
+	padding: auto;
+	text-align: center;
+}
+
+@font-face {
+	font-family: "content";
+	src: url("../fonts/Lato-Medium.ttf");
+}
+
+.header {
+	width: 100%;
+	height: auto;
+	margin: 5px auto;
+	padding: auto;
+	border: 1px solid #2E2E2E;
+	border-collapse: collapse;
+	border-radius: 8px;
+	background-color: rgba(46,46,46,0.8);
+	color: #F2F2F2;
+}
+
+.content {
+	font-family: "content";
+	margin: 10px auto;
+	font-size: 1.6em;
+	font-variant: small-caps;
+}
+
+.content span {
+	font-size: 0.9em;
+}
+
+.namamu {
+	display: block;
+	width: 360px;
+	height: 390px;
+	margin: 50px auto;
+	padding: auto;
+	border: 1px solid #2E2E2E;
+	border-collapse: collapse;
+	border-radius: 2px;
+	background-color: #fff;
+	color: #fff;
+}
+
+.download {
+	width: 360px;
+	height: 320px;
+}
+
+.btn-download {
+	width: 240px;
+	height: 40px;
+	margin: 10px auto;
+	padding: auto;
+	font-size: 1.5em;
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	border: 1px solid #1C1C1C;
+	border-collapse: collapse;
+	border-radius: 8px;
+	background-color: #1C1C1C;
+	color: #fff;
+}
+
+.logo {
+	display: block;
+	width: 50px;
+	height: auto;
+	margin: 5px auto;
+	padding: auto;
+}
+
+input.login {
+	font-family: "content";
+	width: 190px;
+	height: 25px;
+	margin: 10px auto;
+	padding: auto;
+	border: 2px solid #fff;
+	border-collapse: collapse;
+	border-radius: 5px;
+}
+
+.btn-login {
+	font-family: "content";
+	width: 180px;
+	height: 30px;
+	margin: 15px auto 0 auto;
+	padding: auto;
+	border: 1px solid #fff;
+	border-collapse: collapse;
+	border-radius: 5px;
+	background-color: #1C1C1C;
+	color: #fff;
+}
